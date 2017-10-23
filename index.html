@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+
+        
+
+    </head>
+    <body>
+
+
+        <div id="swipeContainer">
+            <div id="pagePrevious"></div>
+            <div id="pageActive"></div>
+            <!-- /swipeContainer -->
+        </div>
+
+        <!-- /body -->
+
+        <!-- Include webswipe -->
+        <script src="./lib/webswipe.js"></script>
+
+        <!-- Run example code -->
+        <script>
+            document.addEventListener('DOMContentLoaded', function(){ 
+                let ws = new webswipe({
+                    container: 'swipeContainer'
+                });
+            });
+        </script>
+
+    </body>
+</html>
