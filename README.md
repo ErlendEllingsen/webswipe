@@ -22,6 +22,7 @@ As written the project is WIP and has not reached an alpha stage. Contributors a
 * When a previous page is loaded, a callback should be called. (E.g. set further history)
 * Implement a `setPreviousPage`-method (see above). Should work almost as `setPage` but should set previous div.
 * Implement a `rapidForceThreshold`-option that should fire if a sudden but "powerful" swipe has been performed. This will cause the switch to trigger even though `pageSwitchThreshold` may not be reached. 
+* Make sure that width of `activePage` stays the same even though moved. (Currently wrap-text triggers because element gets smaller). (Handle off screen width)
 
 ## Contributions
 Contributions are **more than welcome!** See the To do's above or add your own features. Submit a PR when you're ready to go! 
