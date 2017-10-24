@@ -65,11 +65,17 @@
             let ws;
             document.addEventListener('DOMContentLoaded', function(){ 
                 ws = new webswipe({});
-                ws.setPage('page1');
+                
+                ws.setPage('page1', function(){
+
+                });
+
             });
 
             function next() {
-                ws.setPage('page2');
+                ws.setPage('page2', function(){
+                    ws.setPage('page1', function(){}, false);
+                });
             }
 
         </script>
