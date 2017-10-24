@@ -28,13 +28,13 @@
 
             <div id="page2">
                 <h1>Second page!</h1>
-                Second page.. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio voluptates ipsum deleniti provident, quis voluptate ut facilis, quod quasi natus earum, eum adipisci. In placeat id eveniet porro, earum sint!
+                Second page.. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio voluptates ipsum deleniti provident, quis voluptate ut facilis, quod quasi natus earum, eum adipisci. In placeat id eveniet porro, earum p2!
                 <br><br>
-                Second page.. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio voluptates ipsum deleniti provident, quis voluptate ut facilis, quod quasi natus earum, eum adipisci. In placeat id eveniet porro, earum sint!
+                Second page.. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio voluptates ipsum deleniti provident, quis voluptate ut facilis, quod quasi natus earum, eum adipisci. In placeat id eveniet porro, earum p2!
                 <br><br>
-                Second page.. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio voluptates ipsum deleniti provident, quis voluptate ut facilis, quod quasi natus earum, eum adipisci. In placeat id eveniet porro, earum sint!                
+                Second page.. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio voluptates ipsum deleniti provident, quis voluptate ut facilis, quod quasi natus earum, eum adipisci. In placeat id eveniet porro, earum p2!                
                 <br><br>
-                Second page.. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio voluptates ipsum deleniti provident, quis voluptate ut facilis, quod quasi natus earum, eum adipisci. In placeat id eveniet porro, earum sint!                
+                Second page.. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio voluptates ipsum deleniti provident, quis voluptate ut facilis, quod quasi natus earum, eum adipisci. In placeat id eveniet porro, earum p2!                
             </div>
         </div>
 
@@ -74,7 +74,9 @@
 
             function next() {
                 ws.setPage('page2', function(){
-                    ws.setPage('page1', function(){}, false);
+                    ws.setPage('page1', function(){
+                    }, false);
+                    ws.setPreviousPage('page2');
                 });
             }
 
