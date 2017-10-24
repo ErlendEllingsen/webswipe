@@ -20,13 +20,13 @@ As written the project is WIP and has not reached an alpha stage. Contributors a
 
 
 * **Done** <s>When a previous page is loaded, a callback should be called. (E.g. set further history)</s>
-* Implement a `setPreviousPage`-method (see above). Should work almost as `setPage` but should set previous div.
+* **Done** <s>Implement a `setPreviousPage`-method (see above). Should work almost as `setPage` but should set previous div.</s>
 * **Done** <s>Implement a `rapidForceThreshold`-option that should fire if a sudden but "powerful" swipe has been performed. This will cause the switch to trigger even though `pageSwitchThreshold` may not be reached.</s>
 * Make sure that width of `activePage` stays the same even though moved. (Currently wrap-text triggers because element gets smaller). (Handle off screen width)
 * **Done** <s>Implement touch vs mouse detection</s>
 * **Done** <s>Implement touch events (currently only mouse) (See above)</s>
 * Create a better looking demo
-* Create Usage guide
+* Create usage guide
 
 ## Contributions
 Contributions are **more than welcome!** See the To do's above or add your own features. Submit a PR when you're ready to go! 
