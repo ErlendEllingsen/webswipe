@@ -1,6 +1,8 @@
 # webswipe
 **WORK IN PROGRESS**
 
+<img src="https://i.imgur.com/CpfSE89.png" width="300px" alt="webswipe logo">
+
 ## What's webswipe?
 **w**ebswipe is a pure javascript library created for creating neat looking swiping-based page transitions for web applications. This is meant to replicate the user experienced many native applications have when "swiping back" in history on apps. 
 
